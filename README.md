@@ -12,4 +12,4 @@ This was due to availability. The new part is slightly more expensive but has a 
 # Versions
 V0.1 First prototype
 # Current status
-Finalising PCB design
+PCB's ordered 2021-09-02 with 2-3 week deivery
