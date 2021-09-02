@@ -36,7 +36,7 @@ U 1 1 611E7E58
 P 1850 3750
 F 0 "J1" H 1813 3975 50  0000 C CNN
 F 1 "Anderson_Powerpole_2w" H 1813 3884 50  0000 C CNN
-F 2 "SamacSys_Parts:Anderson_powerpole_2w" H 1850 3750 50  0001 C CNN
+F 2 "SamacSys_Parts:Anderson_powerpole_2w_90" H 1850 3750 50  0001 C CNN
 F 3 "~" H 1850 3750 50  0001 C CNN
 	1    1850 3750
 	-1   0    0    -1  
@@ -47,7 +47,7 @@ U 1 1 611E83CB
 P 7500 3800
 F 0 "J2" H 7669 3800 50  0000 L CNN
 F 1 "Anderson_Powerpole_2w" H 7669 3709 50  0000 L CNN
-F 2 "SamacSys_Parts:Anderson_powerpole_2w" H 7500 3800 50  0001 C CNN
+F 2 "SamacSys_Parts:Anderson_powerpole_2w_90" H 7500 3800 50  0001 C CNN
 F 3 "~" H 7500 3800 50  0001 C CNN
 	1    7500 3800
 	1    0    0    -1  
