@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3557-20
+D Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A
+F https://www.keyelco.com/product-pdf.cfm?p=14226
+$ENDCMP
+#
+$CMP 896HP-1AH-C-12VDC
+D Automotive Relays 50A, Automotive Relay
+F https://componentsearchengine.com/Datasheets/1/896HP-1AH-C-12VDC.pdf
+$ENDCMP
+#
+$CMP Anderson_Powerpole_2w
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LM74800QDRRRQ1
+D Ideal Diode Controller with Load Dump Protection
+K
+F https://www.ti.com/lit/gpn/lm7480-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes
+$ENDCMP
+#
+$CMP LTC4368IMS-2#PBF
+D Surge Suppressors 100V OV, UV, OC and Reverse Supply Protection Controller with -3mV Reverse Threshold
+K
+F https://www.arrow.com/en/products/ltc4368ims-2pbf/analog-devices
+$ENDCMP
+#
+$CMP DMT6002LPS-13
+D Diodes Inc DMT6002LPS-13 MOSFET, 8-Pin
+K
+F https://www.diodes.com/assets/Datasheets/DMT6002LPS.pdf
+$ENDCMP
+#
+$CMP 865080545012
+D Wurth Elektronik 100uF 35 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 7.55mm
+K
+F http://katalog.we-online.de/pbs/datasheet/865080545012.pdf
+$ENDCMP
+#
+$CMP FDMS86350ET80
+D PQFN56 N-Channel PowerTrench MOSFET 80 V, 198 A, 2.4 m
+K
+F https://static6.arrow.com/aropdfconversion/e7010c3e11ba9da26f346c6a1add33f34ca22682/fdms86350et80jp-d.pdf
+$ENDCMP
+#
+#End Doc Library

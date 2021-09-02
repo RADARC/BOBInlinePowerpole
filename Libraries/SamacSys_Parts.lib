@@ -1,0 +1,235 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3557-20
+#
+DEF 3557-20 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "3557-20" 650 200 50 H V L CNN
+F2 "355720" 650 100 50 H I L CNN
+F3 "https://www.keyelco.com/product-pdf.cfm?p=14226" 650 0 50 H I L CNN
+F4 "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A" 650 -100 50 H I L CNN "Description"
+F5 "7.37" 650 -200 50 H I L CNN "Height"
+F6 "534-3557-20" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Keystone Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3557-20" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 896HP-1AH-C-12VDC
+#
+DEF 896HP-1AH-C-12VDC K 0 30 Y Y 1 F N
+F0 "K" 200 500 50 H V L CNN
+F1 "896HP-1AH-C-12VDC" 200 400 50 H V L CNN
+F2 "896HP1AHC12VDC" 850 300 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/896HP-1AH-C-12VDC.pdf" 850 200 50 H I L CNN
+F4 "Automotive Relays 50A, Automotive Relay" 850 200 50 H I L CNN "Description"
+F5 "27.5" 850 100 50 H I L CNN "Height"
+F6 "893-896HP1AHC12VDC" 850 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=893-896HP1AHC12VDC" 400 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Song Chuan" 800 -200 50 H I L CNN "Manufacturer_Name"
+F9 "896HP-1AH-C-12VDC" 800 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 300 800 300 800 -50 200 -50 200 300 N
+X COM 30 0 250 200 R 50 50 0 0 P
+X COIL_1 85 0 100 200 R 50 50 0 0 P
+X COIL_2 86 1000 100 200 L 50 50 0 0 P
+X NO 87 1000 250 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Anderson_Powerpole_2w
+#
+DEF Anderson_Powerpole_2w J 0 40 Y Y 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Anderson_Powerpole_2w" 0 -200 50 H V C CNN
+F2 "SamacSys_Parts:Anderson_powerpole_2w" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X +ve 1 -200 0 150 R 50 50 1 1 B
+X -ve 2 -200 -100 150 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM74800QDRRRQ1
+#/13342948/470636/2.49/13/3/Integrated Circuit
+DEF LM74800QDRRRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "LM74800QDRRRQ1" 1250 200 50 H V L CNN
+F2 "SON50P300X300X80-13N" 1250 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/lm7480-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes" 1250 0 50 H I L CNN
+F4 "Ideal Diode Controller with Load Dump Protection" 1250 -100 50 H I L CNN "Description"
+F5 "0.8" 1250 -200 50 H I L CNN "Height"
+F6 "595-LM74800QDRRRQ1" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM74800QDRRRQ1?qs=KUoIvG%2F9IlYNgS7D9vQjYA%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM74800QDRRRQ1" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DGATE 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X VSNS 3 0 -200 200 R 50 50 0 0 P
+X SW 4 0 -300 200 R 50 50 0 0 P
+X OV 5 0 -400 200 R 50 50 0 0 P
+X EN/UVLO 6 0 -500 200 R 50 50 0 0 P
+X DRR 13 700 -1100 200 U 50 50 0 0 P
+X C 12 1400 0 200 L 50 50 0 0 P
+X CAP 11 1400 -100 200 L 50 50 0 0 P
+X VS 10 1400 -200 200 L 50 50 0 0 P
+X OUT 9 1400 -300 200 L 50 50 0 0 P
+X HGATE 8 1400 -400 200 L 50 50 0 0 P
+X GND 7 1400 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LTC4368IMS-2#PBF
+#/1477011/470636/2.49/10/3/Integrated Circuit
+DEF LTC4368IMS-2#PBF IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "LTC4368IMS-2#PBF" 1150 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1150 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/ltc4368ims-2pbf/analog-devices" 1150 0 50 H I L CNN
+F4 "Surge Suppressors 100V OV, UV, OC and Reverse Supply Protection Controller with -3mV Reverse Threshold" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "584-LTC4368IMS2PBF" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4368IMS-2PBF?qs=5aG0NVq1C4yQGBsRaTKLEg%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LTC4368IMS-2#PBF" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X UV 2 0 -100 200 R 50 50 0 0 P
+X OV 3 0 -200 200 R 50 50 0 0 P
+X RETRY 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X GATE 10 1300 0 200 L 50 50 0 0 P
+X SENSE 9 1300 -100 200 L 50 50 0 0 P
+X VOUT 8 1300 -200 200 L 50 50 0 0 P
+X ~FAULT 7 1300 -300 200 L 50 50 0 0 P
+X ~SHDN 6 1300 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DMT6002LPS-13
+#/936165/470636/2.49/11/3/MOSFET (N-Channel)
+DEF DMT6002LPS-13 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "DMT6002LPS-13" 850 200 50 H V L CNN
+F2 "DMT6002LPS13" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMT6002LPS.pdf" 850 0 50 H I L CNN
+F4 "Diodes Inc DMT6002LPS-13 MOSFET, 8-Pin" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "621-DMT6002LPS-13" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMT6002LPS-13?qs=G1ssh2j%252Bqz7H8HVXNbPhrQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DMT6002LPS-13" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 0 -400 200 R 50 50 0 0 P
+X D_2 6 0 -500 200 R 50 50 0 0 P
+X D_3 7 1000 0 200 L 50 50 0 0 P
+X D_4 8 1000 -100 200 L 50 50 0 0 P
+X D_5 9 1000 -200 200 L 50 50 0 0 P
+X D_6 10 1000 -300 200 L 50 50 0 0 P
+X D_7 11 1000 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 865080545012
+#/467666/470636/2.49/2/3/Capacitor Polarised
+DEF 865080545012 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "865080545012" 350 150 50 H V L CNN
+F2 "CAPAE660X770N" 350 50 50 H I L CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080545012.pdf" 350 -50 50 H I L CNN
+F4 "Wurth Elektronik 100uF 35 V dc Aluminium Electrolytic Capacitor, WCAP-ASLI Series 2000h 6.3 (Dia.) x 7.55mm" 350 -150 50 H I L CNN "Description"
+F5 "7.7" 350 -250 50 H I L CNN "Height"
+F6 "710-865080545012" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "865080545012" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FDMS86350ET80
+#/1959547/470636/2.49/9/4/MOSFET (N-Channel)
+DEF FDMS86350ET80 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "FDMS86350ET80" 850 200 50 H V L CNN
+F2 "FDMS86350ET80" 850 100 50 H I L CNN
+F3 "https://static6.arrow.com/aropdfconversion/e7010c3e11ba9da26f346c6a1add33f34ca22682/fdms86350et80jp-d.pdf" 850 0 50 H I L CNN
+F4 "PQFN56 N-Channel PowerTrench MOSFET 80 V, 198 A, 2.4 m" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "512-FDMS86350ET80" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDMS86350ET80?qs=IqR%252BrDpXuMMpixTfMltUBg%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FDMS86350ET80" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 0 -400 200 R 50 50 0 0 P
+X D_2 6 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_4 8 1000 -200 200 L 50 50 0 0 P
+X D_5 9 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
