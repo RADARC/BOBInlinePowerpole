@@ -26,6 +26,13 @@ reacts to rapid changes of current. As an example with a Watson W-30AM supply as
 https://github.com/RADARC/Powerpole-distribution even flicking the switch to energise the relay would cause the input to cycle rapidly. If this happens
 the easy fix is to just remove R4 to disable the under voltage protection.
 
+# Thermal Testing
+Testing with a 55W car bulb so around a 4A load didnt show up any temperature difference. After a few minutes the only temperature rise was on output side of the PCB
+which was caused by the heat from the H7 bulb traveliing back along the 6cm of wire and through the powerpole connector!
+
+A fellow member of the Reading Amateur Radio Club is building a test load capable of up to 20A and once complete thermal testing at a 20A output will be performed.
+Depending on the result the PCB might be made a bit narrower.
+
 # Versions
 V0.1 First prototype  
 V1.1 Removed over current protection feature
