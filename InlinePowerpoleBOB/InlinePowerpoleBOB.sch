@@ -247,17 +247,6 @@ F 9 "865080545012" H 6800 3450 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	6450 4100 6450 2800
-$Comp
-L Device:R R7
-U 1 1 61214CA0
-P 6150 2800
-F 0 "R7" V 5943 2800 50  0000 C CNN
-F 1 "0R002" V 6034 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 6080 2800 50  0001 C CNN
-F 3 "~" H 6150 2800 50  0001 C CNN
-	1    6150 2800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3450 4450 5800 4450
 Wire Wire Line
@@ -339,18 +328,6 @@ Wire Wire Line
 	4100 5150 4500 5150
 Wire Wire Line
 	4100 4100 4500 4100
-Wire Wire Line
-	6000 2800 5900 2800
-Connection ~ 5900 2800
-Wire Wire Line
-	6300 2800 6350 2800
-Wire Wire Line
-	5800 4000 6350 4000
-Wire Wire Line
-	6350 4000 6350 2800
-Connection ~ 6350 2800
-Wire Wire Line
-	6350 2800 6450 2800
 Connection ~ 5150 5150
 Wire Wire Line
 	7300 5150 7300 3900
@@ -370,12 +347,18 @@ Wire Wire Line
 	6450 2800 6850 2800
 Wire Wire Line
 	7300 2800 7300 3800
-Connection ~ 6450 2800
 Wire Wire Line
 	6850 4200 6850 2800
 Connection ~ 6850 2800
 Wire Wire Line
 	6850 2800 7300 2800
 Wire Wire Line
-	2150 4450 2150 4500
+	5900 2800 6450 2800
+Connection ~ 5900 2800
+Connection ~ 6450 2800
+Wire Wire Line
+	5800 4000 5900 4000
+Wire Wire Line
+	5900 4000 5900 3900
+Connection ~ 5900 3900
 $EndSCHEMATC
