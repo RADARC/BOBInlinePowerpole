@@ -27,6 +27,8 @@ https://github.com/RADARC/Powerpole-distribution even flicking the switch to ene
 the easy fix is to just remove R4 to disable the under voltage protection.
 
 # Versions
-V0.1 First prototype
+V0.1 First prototype  
+V1.1 Removed over current protection feature
+
 # Current status
-PCB's ordered 2021-09-02 with 2-3 week deivery
+V1.1 assembled and being tested. Final test will be to test the board temperature with a 20A load to ensure there is sufficient heat sinking.
