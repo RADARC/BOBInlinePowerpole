@@ -87,17 +87,6 @@ F 3 "~" H 3450 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 4450 5800 4200
-$Comp
-L Device:R R2
-U 1 1 611EDEB5
-P 2550 4750
-F 0 "R2" H 2620 4796 50  0000 L CNN
-F 1 "24K" H 2620 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 4750 50  0001 C CNN
-F 3 "~" H 2550 4750 50  0001 C CNN
-	1    2550 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 4900 2550 5150
 $Comp
@@ -267,14 +256,14 @@ Wire Wire Line
 Wire Wire Line
 	2950 4900 2950 5150
 $Comp
-L Device:R R4
+L Device:R R2
 U 1 1 611F020F
-P 2950 4750
-F 0 "R4" H 3020 4796 50  0000 L CNN
-F 1 "62K" H 3020 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2880 4750 50  0001 C CNN
-F 3 "~" H 2950 4750 50  0001 C CNN
-	1    2950 4750
+P 2550 4750
+F 0 "R2" H 2620 4796 50  0000 L CNN
+F 1 "24K" H 2620 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 4750 50  0001 C CNN
+F 3 "~" H 2550 4750 50  0001 C CNN
+	1    2550 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -316,12 +305,7 @@ Wire Wire Line
 	2950 3800 3450 3800
 Wire Wire Line
 	2950 5150 3750 5150
-Wire Wire Line
-	2950 5150 2550 5150
 Connection ~ 2950 5150
-Wire Wire Line
-	2550 5150 2150 5150
-Connection ~ 2550 5150
 Connection ~ 2150 5150
 Connection ~ 4100 5150
 Wire Wire Line
@@ -361,4 +345,20 @@ Wire Wire Line
 Wire Wire Line
 	5900 4000 5900 3900
 Connection ~ 5900 3900
+$Comp
+L Device:D_Zener D1
+U 1 1 6165A556
+P 2950 4750
+F 0 "D1" V 2904 4830 50  0000 L CNN
+F 1 "15V" V 2995 4830 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2950 4750 50  0001 C CNN
+F 3 "~" H 2950 4750 50  0001 C CNN
+	1    2950 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 5150 2550 5150
+Connection ~ 2550 5150
+Wire Wire Line
+	2550 5150 2950 5150
 $EndSCHEMATC

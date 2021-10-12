@@ -7,8 +7,7 @@ It shares the same footprint so the PCB is compatible with either.
 
 * Reverse polarity protection up to -40V
 * Max input over voltage protection of 100V
-* Output will only be enabled when the input is between +11.5V and +16V
-* Automatic reset in the event of an over current event with a 1.2 second cooldown.
+* Output will only be enabled when the input is below +16V
 
 # Notes
 V1.1 has the over current feature removed as it is a little too sensitive. The below text has been left below as it gives good background information.  
@@ -20,22 +19,20 @@ Note that the value of C4 can be used to limit the inrush current. However this 
 the amount of output capacitance which will be radio dependant. Therefore it is not possible to pick a value which will be suitable for everyone. 
 See pages 12 & 13 of the LTC4368 datasheet for more information.~~
 
-It is possible that when turning on or connecting equipment you may find that the output is switched off and back on again at a rate of 30Hz.
-This is likely to be caused by the input voltage dropping below the 11.5V threshold briefly which could be a factor based on how the power supply
-reacts to rapid changes of current. As an example with a Watson W-30AM supply as the input and the output connected to my powerpole disribution board
-https://github.com/RADARC/Powerpole-distribution even flicking the switch to energise the relay would cause the input to cycle rapidly. If this happens
-the easy fix is to just remove R4 to disable the under voltage protection.
+V1.1 also has the under voltage protection disabled as it was found that when turning on or connecting equipment the output was switched off and back on again at a rate of 30Hz.
+This was caused by the input voltage dropping below the 11.5V threshold briefly due to the Watson W-30AM supply that was being used for testing not reacting quickly enough
+to the sudden increase in current being drawn. If you wish to have the under voltage protection deature you can switch D1 for a 62K resistor.
 
 # Thermal Testing
 Testing with a 55W car bulb so around a 4A load didnt show up any temperature difference. After a few minutes the only temperature rise was on output side of the PCB
 which was caused by the heat from the H7 bulb traveliing back along the 6cm of wire and through the powerpole connector!
 
-A fellow member of the Reading Amateur Radio Club is building a test load capable of up to 20A and once complete thermal testing at a 20A output will be performed.
-Depending on the result the PCB might be made a bit narrower.
+V0.1 was also tested with a 20A load and the PCB reached a temperature of just over 60C. This seemed to be a good compromise so when V1.1 was designed it was made just a
+little shorter due to the current sense resistor being removed from the PCB but the width was kept the same.
 
 # Versions
 V0.1 First prototype  
-V1.1 Removed over current protection feature
+V1.1 Removed over current protection feature & removed under voltage
 
 # Current status
-V1.1 assembled and being tested. Final test will be to test the board temperature with a 20A load to ensure there is sufficient heat sinking.
+V1.1 updated PCB in production.
