@@ -36,3 +36,9 @@ V1.1 Removed over current protection feature & removed under voltage
 
 # Current status
 V1.1 updated PCB in production.
+
+# 3D case
+I have made the designs public in Tinkercad so people can modify it if they desire.
+Print two copies of the design and clamp the two parts together using a M2 nut and screw though the centre of the powerpole connectors.
+I used a 25mm long screw and cut it down to size.
+https://www.tinkercad.com/things/a7FUZU7CIxi
