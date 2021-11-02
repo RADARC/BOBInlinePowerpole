@@ -42,3 +42,5 @@ I have made the designs public in Tinkercad so people can modify it if they desi
 Print two copies of the design and clamp the two parts together using a M2 nut and screw though the centre of the powerpole connectors.
 I used a 25mm long screw and cut it down to size.
 https://www.tinkercad.com/things/a7FUZU7CIxi
+There is also a stl for a small washer to sit between the top of the powerpole plug and the case to stop the case flexing when the screw is tightened.
+
