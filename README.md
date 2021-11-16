@@ -45,5 +45,8 @@ There is also a stl for a small washer to sit between the top of the powerpole p
 Case (print 2) - https://www.tinkercad.com/things/a7FUZU7CIxi  
 Washer (print 2) - https://www.tinkercad.com/things/bhAzTZOGNlD
 
+![Image of completed unit](https://github.com/RADARC/BOBInlinePowerpole/blob/main/3D%20View.png?raw=true)
+
 ![Image of completed unit](https://github.com/RADARC/BOBInlinePowerpole/blob/main/Completed%20Unit.jpg?raw=true)
+
 
