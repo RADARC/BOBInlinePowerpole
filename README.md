@@ -21,7 +21,10 @@ See pages 12 & 13 of the LTC4368 datasheet for more information.~~
 
 V1.1 also has the under voltage protection disabled as it was found that when turning on or connecting equipment the output was switched off and back on again at a rate of 30Hz.
 This was caused by the input voltage dropping below the 11.5V threshold briefly due to the Watson W-30AM supply that was being used for testing not reacting quickly enough
-to the sudden increase in current being drawn. If you wish to have the under voltage protection deature you can switch D1 for a 62K resistor.
+to the sudden increase in current being drawn. If you wish to have the under voltage protection feature you can switch D1 for a 62K resistor.
+NOTE: Using D1 I have realised that when operating in reverse polarity techniclly this causes the maximum -ve input to the UV pin of the chip to be exceeded. Id therefore now recommend
+that D1 be omitted in most situations. Doing this does however reduce the max operating voltage to 80V instead of 100V. So in fixed installations it might be desirable
+to keep the diode in place.
 
 # Thermal Testing
 Testing with a 55W car bulb so around a 4A load didnt show up any temperature difference. After a few minutes the only temperature rise was on output side of the PCB
